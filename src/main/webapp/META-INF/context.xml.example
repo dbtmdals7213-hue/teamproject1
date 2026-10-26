@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource
+        name="jdbc/jspdb"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        username="YOUR_DB_USERNAME"
+        password="YOUR_DB_PASSWORD"
+        maxTotal="50"
+        maxIdle="10"
+        maxWaitMillis="-1"
+        url="jdbc:mysql://ls-9af17566ed7104dc12e370fbbea2132aee5b1d0c.c14csa4u25lg.ap-southeast-2.rds.amazonaws.com:3306/solution?serverTimezone=Asia/Seoul&amp;characterEncoding=UTF-8&amp;allowPublicKeyRetrieval=true&amp;useSSL=true"
+    />
+</Context>
